@@ -1,0 +1,17 @@
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    hostname: localhost
+  server:
+        peer-node-read-timeout-ms: 300000
+        enable-self-preservation: false
+server:
+  port: 8081
+
+spring:
+  application:
+    name: shopping-service
+
+
